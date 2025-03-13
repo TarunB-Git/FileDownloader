@@ -29,7 +29,7 @@ The file types are based on the user's selection, and the files are saved to a u
 
 2. Install the required dependencies:
    ```bash
-   pip install requests beautifulsoup4
+   pip install -r requirements.txt
    ```
 
 3. Run the application:
@@ -62,8 +62,8 @@ The file types are based on the user's selection, and the files are saved to a u
     If any files cannot be downloaded, or if there are any errors, they will be logged in separate `.log` files (`skipped_files1.log`, `skipped_files2.log`, etc.) for troubleshooting.
 
  8. Abort Renaming:
-    If you check the "Don't Rename pngs?" checkbox, the renaming operation will be skipped, and the program will only download the files.
-
+    If you check the "Don't Rename Files?" checkbox, the renaming operation will be skipped, and the program will only download the files.
+    
 
  File Extensions: The program is designed to handle any file type (e.g., `.png`, `.pdf`, `.mp3`, `.mp4`, `.docx`), as long as the URL links point to files with the selected extension.
  
